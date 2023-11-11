@@ -1,0 +1,16 @@
+@import '@/assets/style/variables.scss';
+
+
+.feedback-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    .feedback {
+      color: #3E3E3E;
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: capitalize;
+      white-space: nowrap;
+    }
+  }

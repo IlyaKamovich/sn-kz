@@ -1,0 +1,28 @@
+@import '@/assets/style/variables.scss';
+
+.modal-body {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  .send-button {
+    margin-top: 5px;
+    width: 100%;
+    height: max-content;
+    outline: none;
+    border: none;
+    background: $button-blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: $white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}

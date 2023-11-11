@@ -1,0 +1,74 @@
+@import '@/assets/style/variables.scss';
+
+.payment {
+  margin-top: 57px;
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  &-path {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid $gray;
+
+    @media (max-width: 965px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-item {
+      padding: 20px;
+      height: 215px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $light-black;
+
+      .inner {
+        max-width: 180px;
+
+        @media (max-width: 500px) {
+          width: 100%;
+        }
+      }
+
+      &:not(:last-child) {
+        border-right: 1px solid $gray;
+      }
+
+      @media (max-width: 965px) {
+        &:not(:nth-child(2)) {
+          border-right: 1px solid $gray;
+        }
+        &:nth-child(3) {
+          border-top: 1px solid $gray;
+        }
+        &:nth-child(4) {
+          border-top: 1px solid $gray;
+        }
+      }
+
+      .strip {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .title {
+        color: $light-black;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      .text {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+  }
+}

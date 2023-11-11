@@ -1,0 +1,12 @@
+@import '@/assets/style/variables.scss';
+
+.current {
+  color: $black;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+
+  @media (max-width: 680px) {
+    font-size: 20px;
+  }
+}

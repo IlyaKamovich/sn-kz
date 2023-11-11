@@ -1,0 +1,142 @@
+.thanks {
+    padding-top: 40px;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        &__title {
+            font-weight: 900;
+            font-size: 31px;
+            text-transform: uppercase;
+            color: #000000;
+            text-align: center;
+        }
+    }
+
+    &__info {
+        text-align: center;
+        color: #0082af;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 32px;
+    }
+
+    &__fields {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+
+            &__label {
+                font-size: 14px;
+                padding-bottom: 8px;
+                padding-left: 13px;
+            }
+
+            &__input {
+                background: #ffffff;
+                border: 1px solid #353535;
+                border-radius: 5px;
+                padding-left: 13px;
+                font-size: 18px;
+                height: 57px;
+            }
+        }
+    }
+
+    &__details {
+        margin: 0 auto;
+        max-width: 520px;
+        padding-top: 40px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        padding-bottom: 12px;
+    }
+
+    &__subdetails {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 16px;
+        margin: 0 auto;
+        max-width: 520px;
+        color: #464545;
+    }
+
+    &__link {
+        margin-inline: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;
+        max-width: 400px;
+        height: 55px;
+        background: linear-gradient(180deg, #36a7ce 0%, #0082af 100%);
+        border-radius: 50px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        text-shadow: 0px 1px 1px rgb(0 0 0 / 50%);
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    &__footer {
+        margin-top: 40px;
+        background-color: rgb(238, 238, 238);
+        padding: 30px 0;
+        color: #333;
+        text-align: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 510px) {
+    .thanks__header {
+        flex-direction: column;
+    }
+
+    .thanks__header__title {
+        font-size: 25px;
+    }
+
+    .thanks__info {
+        font-size: 20px;
+    }
+
+    .thanks__fields {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .thanks__fields__item__input {
+        height: 46px;
+    }
+
+    .thanks__details {
+        font-size: 19px;
+    }
+
+    .thanks__link {
+        font-size: 16px;
+    }
+}

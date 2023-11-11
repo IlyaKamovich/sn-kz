@@ -1,0 +1,9 @@
+@import '@/assets/style/variables.scss';
+
+.old {
+  color: #888;
+  font-size: 16px;
+  text-transform: lowercase;
+  text-decoration: line-through;
+  text-decoration-color: #888;
+}

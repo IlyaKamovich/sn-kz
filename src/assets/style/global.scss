@@ -1,0 +1,42 @@
+@import '@/assets/style/reset.scss';
+@import '@/assets/style/variables.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: $font;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  color: $black !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+.icon-button {
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1250px;
+  flex: 1 1 auto;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 15px 30px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  color: #757575;
+  font-size: 16px;
+  &::placeholder {
+    font-weight: 300 !important;
+  }
+}

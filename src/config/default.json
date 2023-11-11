@@ -1,0 +1,16 @@
+{
+  "REQUESTS": {
+    "SEND_ORDER": "https://kc-telecom-api-640a191745af.herokuapp.com/order/create",
+    "GET_OFFERS": "https://kc-telecom-api-640a191745af.herokuapp.com/offer/landing",
+    "SEND_FEEDBACK": "https://kc-telecom-api-640a191745af.herokuapp.com/feedback/create"
+  },
+  "CRM": {
+    "NEW_PRICE": 79,
+    "OLD_PRICE": 160,
+    "WEBMASTER_ID": 1,
+    "DISCOUNT": "-51%",
+    "TARGETOLOG_ID": 6,
+    "ORDER_METHOD": "orders-from-tik-tok",
+    "ARTICLE": "winter-womens-shoes"
+  }
+}

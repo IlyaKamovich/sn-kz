@@ -1,0 +1,30 @@
+@import '@/assets/style/variables.scss';
+
+.arrow {
+    display: block;
+    position: absolute;
+    border: none;
+    outline: none;
+    background: none;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    &-right {
+        right: -17px;
+    }
+
+    &-left {
+        left: -17px;
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    img {
+        width: 34px;
+        height: 34px;
+    }
+
+    @media (max-width: 965px) {
+        display: block;
+    }
+}

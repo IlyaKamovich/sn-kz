@@ -1,0 +1,23 @@
+@import '@/assets/style/variables.scss';
+
+.burger-menu {
+  .ant-drawer-header-title {
+    flex-direction: row-reverse;
+  }
+
+  .ant-drawer-body {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    p {
+      a {
+        color: $black;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

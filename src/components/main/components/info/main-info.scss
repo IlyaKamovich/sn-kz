@@ -1,0 +1,14 @@
+@import '@/assets/style/variables.scss';
+
+.main-info {
+  &-price {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    @media (max-width: 680px) {
+      margin-top: 13px;
+    }
+  }
+}

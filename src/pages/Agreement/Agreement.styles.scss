@@ -1,0 +1,16 @@
+.agreement {
+  padding: 20px;
+  font-size: 14px;
+
+  &__title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  &__text {
+    padding-top: 9px;
+  }
+}

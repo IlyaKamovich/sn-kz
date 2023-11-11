@@ -1,0 +1,47 @@
+@import '@/assets/style/variables.scss';
+
+.select-with-title {
+  .title {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $black;
+    margin-bottom: 10px;
+  }
+
+  &__small {
+    .select {
+      &.ant-select.ant-select-single {
+        width: auto !important;
+        min-width: 70px;
+      }
+      & .ant-select-arrow {
+        transform: rotate(0) !important;
+      }
+    }
+
+    .title {
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+  }
+
+  .select {
+    &.ant-select.ant-select-single {
+      width: 210px;
+
+      @media (max-width: 500px) {
+        width: 165px;
+      }
+
+      & .ant-select-selector {
+        border-radius: 3px;
+        border: 1px solid $gray;
+      }
+
+      & .ant-select-arrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

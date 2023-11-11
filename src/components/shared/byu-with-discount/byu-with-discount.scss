@@ -1,0 +1,19 @@
+@import '@/assets/style/variables.scss';
+
+.buy-with-discount {
+  height: max-content;
+  outline: none;
+  border: none;
+  background: $button-blue;
+  padding: 10px 90px;
+  border-radius: 5px;
+  color: $white;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+
+  @media (max-width: 510px) {
+    padding: 10px;
+    width: 100%;
+  }
+}
