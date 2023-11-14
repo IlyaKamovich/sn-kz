@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react';
-import { Helmet } from 'react-helmet';
+import React, { Fragment, useEffect } from 'react';
 
 const Header = React.lazy(() => import('../../components/header/Header'));
 const MainSection = React.lazy(() => import('../../components/main/MainSection'));
@@ -13,50 +12,31 @@ const LowerMenu = React.lazy(() => import('../../components/lower/LowerMenu'));
 const Footer = React.lazy(() => import('../../components/footer/Footer'));
 
 const Shop = () => {
-  return (
-    <Fragment>
-      <Helmet>
-        <script type="text/javascript">
-          {`(function (m, e, t, r, i, k, a) {
-        m[i] =
-          m[i] ||
-          function () {
-            (m[i].a = m[i].a || []).push(arguments);
-          };
-        m[i].l = 1 * new Date();
-        for (var j = 0; j < document.scripts.length; j++) {
-          if (document.scripts[j].src === r) {
-            return;
-          }
-        }
-        (k = e.createElement(t)), (a = e.getElementsByTagName(t)[0]), (k.async = 1), (k.src = r), a.parentNode.insertBefore(k, a);
-      })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+    useEffect(() => {
+        import('react-facebook-pixel')
+            .then((x) => x.default)
+            .then((ReactPixel) => {
+                ReactPixel.init('1059012228037855');
+                ReactPixel.pageView();
+            });
+    }, []);
 
-      ym(95423799, 'init', {
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-      });`}
-        </script>
-        <noscript>
-          {`<div><img src="https://mc.yandex.ru/watch/95423799" style="position: absolute; left: -9999px" alt="" /></div
-    >`}
-        </noscript>
-      </Helmet>
-      <Header />
-      <main>
-        <MainSection />
-        <AdvantagesSection />
-        <SizeSection />
-        <FeedbackSection />
-        <AboutSection />
-        <PaymentSection />
-      </main>
-      <Footer />
-      <LowerMenu />
-      <OrderModal />
-    </Fragment>
-  );
+    return (
+        <Fragment>
+            <Header />
+            <main>
+                <MainSection />
+                <AdvantagesSection />
+                <SizeSection />
+                <FeedbackSection />
+                <AboutSection />
+                <PaymentSection />
+            </main>
+            <Footer />
+            <LowerMenu />
+            <OrderModal />
+        </Fragment>
+    );
 };
 
 export default Shop;
