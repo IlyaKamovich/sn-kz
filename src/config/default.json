@@ -1,6 +1,6 @@
 {
     "REQUESTS": {
-        "SEND_ORDER": "https://kc-telecom-api-640a191745af.herokuapp.com/order/create",
+        "SEND_ORDER": "https://kc-telecom-api-640a191745af.herokuapp.com/order/new",
         "GET_OFFERS": "https://kc-telecom-api-640a191745af.herokuapp.com/offer/landing",
         "SEND_FEEDBACK": "https://kc-telecom-api-640a191745af.herokuapp.com/feedback/create"
     },
@@ -11,6 +11,7 @@
         "DISCOUNT": "-51%",
         "TARGETOLOG_ID": 8,
         "ORDER_METHOD": "shopping-cart",
-        "ARTICLE": "winter-womens-shoes"
+        "ARTICLE": "winter-womens-shoes",
+        "SHOP_SITE": "RB"
     }
 }

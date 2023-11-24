@@ -6,19 +6,19 @@ import CurrentPrice from '../../../shared/current-price/CurrentPrice';
 import './info-block.scss';
 
 const InfoBlock = () => {
-  const selectedImage = useTypeSelector(selectedImageSelector);
-  return (
-    <div className="info-block">
-      <div className="image">
-        <img src={selectedImage} alt="shoes" />
-      </div>
-      <div className="info">
-        <div className="title">Зимняя женская обувь</div>
-        <OldPrice />
-        <CurrentPrice />
-      </div>
-    </div>
-  );
+    const selectedImage = useTypeSelector(selectedImageSelector);
+    return (
+        <div className="info-block">
+            <div className="image">
+                <img src={selectedImage} alt="shoes" />
+            </div>
+            <div className="info">
+                <div className="title">МЕХОВАЯ ОБУВЬ FASHION</div>
+                <OldPrice />
+                <CurrentPrice />
+            </div>
+        </div>
+    );
 };
 
 export default InfoBlock;

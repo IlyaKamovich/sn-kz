@@ -1,57 +1,67 @@
 @import '@/assets/style/variables.scss';
 
 .header {
-  .sale {
-    padding: 13px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $blue;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: capitalize;
-
-    color: $white;
-
-    @media (max-width: 680px) {
-      font-size: 20px;
-      padding: 18px 0;
-    }
-  }
-
-  .menu {
-    padding: 10px 0;
-    color: $black;
-    border-bottom: 1px solid $gray;
-    .container {
-      position: relative;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      font-family: Inter;
-      font-size: 24px;
-      font-weight: 600;
-
-      @media (max-width: 680px) {
-        font-size: 20px;
-      }
-
-      span {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+    .sale {
+        padding: 9px 0;
         display: flex;
-        align-items: center;
         justify-content: center;
-        font-family: $font;
-      }
+        align-items: center;
+        background-color: $blue;
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: capitalize;
+
+        color: $white;
+
+        @media (max-width: 680px) {
+            font-size: 20px;
+            padding: 10px 0;
+        }
     }
 
-    &-trigger {
-      position: relative;
-      z-index: 2;
+    .menu {
+        padding: 10px 0;
+        color: $black;
+        border-bottom: 1px solid $gray;
+        .container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 600;
+
+            @media (max-width: 680px) {
+                font-size: 20px;
+            }
+
+            span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $font;
+            }
+        }
+
+        &-trigger {
+            position: relative;
+            z-index: 2;
+        }
     }
-  }
+}
+
+.subtitle {
+    text-align: center;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    border-bottom: 1px solid $gray;
+    color: #000;
+    background-color: #e5ff02;
 }
