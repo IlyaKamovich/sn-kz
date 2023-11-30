@@ -5,8 +5,8 @@
         "SEND_FEEDBACK": "https://kc-telecom-api-640a191745af.herokuapp.com/feedback/create"
     },
     "CRM": {
-        "NEW_PRICE": 79,
-        "OLD_PRICE": 160,
+        "NEW_PRICE": 69,
+        "OLD_PRICE": 140,
         "WEBMASTER_ID": 1,
         "DISCOUNT": "-51%",
         "TARGETOLOG_ID": 8,
