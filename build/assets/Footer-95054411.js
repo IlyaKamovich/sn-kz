@@ -1,1 +1,0 @@
-import{j as o}from"./index-08929282.js";import{F as t}from"./FooterContent-01391b2d.js";import"./react-9770042a.js";import"./reactDom-76a1a9f3.js";import"./antd-506106c0.js";const n=()=>o.jsx("footer",{className:"footer",children:o.jsx("div",{className:"container",children:o.jsx(t,{})})});export{n as default};

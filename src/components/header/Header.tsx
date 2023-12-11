@@ -18,11 +18,11 @@ const Header = () => {
                         <button type="button" className="icon-button menu-trigger" onClick={onOpen}>
                             <img src="icons/burger.svg" alt="menu" />
                         </button>
-                        <span>МЕХОВАЯ ОБУВЬ FASHION</span>
+                        <span>КРОССОВКИ С НАТУРАЛЬНЫМ МЕХОМ</span>
                     </div>
                 </div>
             </header>
-            <p className="subtitle">С ортопедической стелькой</p>
+            <p className="subtitle">Ортопедическая стелька в подарок</p>
             <BurgerMenu open={open} onClose={onClose} />
         </>
     );

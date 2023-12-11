@@ -1,1 +1,0 @@
-import{j as s,v as i}from"./index-08929282.js";import{u as n}from"./useTypeDispatch-dae163b7.js";const a=()=>{const t=n(),o=()=>{t(i(!0))};return s.jsx("button",{type:"button",className:"buy-with-discount",onClick:o,children:"Заказать со скидкой"})};export{a as B};
