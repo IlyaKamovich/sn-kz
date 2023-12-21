@@ -3,21 +3,11 @@ import FooterContent from '../../components/footer/components/FooterContent';
 import './Thanks.styles.scss';
 import { thanksName, thanksPhone } from '../../store/thanks/thanks.selectors';
 import { useTypeSelector } from '../../hooks/useTypeSelector';
-import { Fragment, useEffect } from 'react';
+import { Fragment } from 'react';
 
 const Thanks = () => {
     const name = useTypeSelector(thanksName);
     const phone = useTypeSelector(thanksPhone);
-
-    useEffect(() => {
-        import('react-facebook-pixel')
-            .then((x) => x.default)
-            .then((ReactPixel) => {
-                ReactPixel.init('1059012228037855');
-                ReactPixel.pageView();
-                ReactPixel.track('Lead');
-            });
-    }, []);
 
     return (
         <Fragment>

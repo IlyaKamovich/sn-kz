@@ -137,7 +137,7 @@ const OrderModal = () => {
     return (
         <>
             {contextHolder}
-            <Modal title="КРОССОВКИ С НАТУРАЛЬНЫМ МЕХОМ" open={isOpen} onOk={onCloseModal} onCancel={onCloseModal} footer={null}>
+            <Modal title="Кроссовки мужские противоударные" open={isOpen} onOk={onCloseModal} onCancel={onCloseModal} footer={null}>
                 <div className="modal-header">
                     <div className="images">
                         <img src={selectedImage} alt="shoes" />

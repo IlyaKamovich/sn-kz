@@ -12,13 +12,13 @@ const Header = () => {
     return (
         <>
             <header className="header">
-                <div className="sale">❄️ Сезонная распродажа -51% ❄️</div>
+                <div className="sale">Новинка 2024 года</div>
                 <div className="menu">
                     <div className="container">
                         <button type="button" className="icon-button menu-trigger" onClick={onOpen}>
                             <img src="icons/burger.svg" alt="menu" />
                         </button>
-                        <span>КРОССОВКИ С НАТУРАЛЬНЫМ МЕХОМ</span>
+                        <span>Кроссовки мужские противоударные</span>
                     </div>
                 </div>
             </header>

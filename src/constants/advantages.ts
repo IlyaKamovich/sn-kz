@@ -1,19 +1,23 @@
 export const ADVANTAGES = [
     {
-        src: 'images/55.jpeg',
-        html: '<strong class="info-title">НАТУРАЛЬНАЯ МЕХОВАЯ ПОДКЛАДКА</strong> <p class="info-text">Натуральная меховая подкладка согреет вас в даже сильные морозы!</p>',
+        src: 'images/bull/3.png',
+        html: '<strong class="info-title">ЕВРОПЕЙСКИЕ СТАЛЬНЫЕ ПАЛЬЦЫ</strong> <p class="info-text">Изготовлены из прочной стали и полностью защищают пальцы ног от сдавливания и падения предметов.</p>',
     },
     {
-        src: 'images/vd.jpg',
-        html: '<strong class="info-title">Водонепроницаемый верх</strong> <p class="info-text">Изготовленные из <strong>высококачественного водонепроницаемого материала</strong>. Вы сможете <strong>сохранять ноги сухими весь день</strong> в снежную и дождливую погоду.</p>',
+        src: 'images/bull/4.png',
+        html: '<strong class="info-title">Европейская усиленная подошва</strong> <p class="info-text">Полностью защищает ступни от проколов и порезов, не сковывает движения</p>',
     },
     {
-        src: 'images/bu2.png',
-        html: '<strong class="info-title">Легкие и удобные</strong> <p class="info-text">Подходит <strong>для всех типов ног</strong>. Эти кроссовки позволят вам чувствовать себя так, словно вы <strong>ходите по воздуху.</strong> Это максимально <b>уменьшит боль в ногах</b> при стоянии или ходьбе в течение длительного периода времени.</p>',
+        src: 'images/bull/5.png',
+        html: '<strong class="info-title">Амортизирующие и легкие</strong> <p class="info-text">Мягкая межподошва обеспечивает превосходную амортизацию и более просторный носок для комфорта в течение всего дня.</p>',
     },
     {
-        src: 'images/bu1.png',
-        html: '<strong class="info-title">Подошва нового поколения</strong> <p class="info-text">Изготовлена <strong>из ультра-износостойкого полиуретана, нескользящая, эластичная, противоударная</strong>. Специальная конструкция подошвы обеспечивает <strong>надежное сцепление</strong>, что значительно повышает <strong>безопасность.</strong></p>',
+        src: 'images/bull/1.png',
+        html: '<strong class="info-title">Гибкие</strong> <p class="info-text">Пружинный, гибкий состав помогает равномерно распределять вес тела по стопам.</p>',
+    },
+    {
+        src: 'images/bull/2.png',
+        html: '<strong class="info-title">Стильные</strong> <p class="info-text">Мягкий и эластичный верх с переплетением крыльев обеспечивает красивый вид, который с возрастом становится только лучше.</p>',
     },
     {
         src: 'images/4.mp4',
