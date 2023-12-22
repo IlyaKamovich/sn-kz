@@ -1,11 +1,11 @@
 export const ADVANTAGES = [
     {
         src: 'images/bull/3.png',
-        html: '<strong class="info-title">ЕВРОПЕЙСКИЕ СТАЛЬНЫЕ ПАЛЬЦЫ</strong> <p class="info-text">Изготовлены из прочной стали и полностью защищают пальцы ног от сдавливания и падения предметов.</p>',
+        html: '<strong class="info-title">Противоударный носок</strong> <p class="info-text">Изготовлены из прочной стали и полностью защищают пальцы ног от сдавливания и падения предметов.</p>',
     },
     {
         src: 'images/bull/4.png',
-        html: '<strong class="info-title">Европейская усиленная подошва</strong> <p class="info-text">Полностью защищает ступни от проколов и порезов, не сковывает движения</p>',
+        html: '<strong class="info-title">Защищены от проколов</strong> <p class="info-text">Полностью защищает ступни от проколов и порезов, не сковывает движения</p>',
     },
     {
         src: 'images/bull/5.png',
@@ -17,7 +17,7 @@ export const ADVANTAGES = [
     },
     {
         src: 'images/bull/2.png',
-        html: '<strong class="info-title">Стильные</strong> <p class="info-text">Мягкий и эластичный верх с переплетением крыльев обеспечивает красивый вид, который с возрастом становится только лучше.</p>',
+        html: '<strong class="info-title">Стильные</strong> <p class="info-text">Верх с переплетением крыльев обеспечивает красивый вид.</p>',
     },
     {
         src: 'images/4.mp4',

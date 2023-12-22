@@ -7,6 +7,8 @@ import { IOffer, Value } from '../store/data/slice';
 const getFilterByKey = (offers: IOffer[], key: keyof IOffer, title: string) => {
     const uniqueOffersByKey = uniqBy(offers, (offer) => offer[key]);
 
+    console.log(uniqueOffersByKey);
+
     const filterItems = map(uniqueOffersByKey, (uniqueOfferByKey) => {
         return {
             value: uniqueOfferByKey[key] as Value,
@@ -15,8 +17,6 @@ const getFilterByKey = (offers: IOffer[], key: keyof IOffer, title: string) => {
     });
     const reversedItems = reverse(filterItems);
     const filters = key === 'size' ? orderBy(reversedItems, ['value'], 'asc') : reversedItems;
-
-    console.log(key === 'color' ? filters : null);
 
     const filter = { title, filters };
     return filter;

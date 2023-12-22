@@ -1,45 +1,46 @@
 @import '@/assets/style/variables.scss';
 
 .filter {
-  margin-top: 33px;
+    margin-top: 33px;
 
-  @media (max-width: 965px) {
-    margin-top: 20px;
-  }
-  &-title {
-    color: $black;
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  &-buttons{
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
-    align-items: center;
-    .button {
-      outline: none;
-      background: none;
-      padding: 10px 20px;
-      font-size: 18px;
-      font-weight: 300;
-      text-transform: capitalize;
-      color: $light-black;
-      border-radius: 3px;
-      border: 1px solid  $light-black;
-      cursor: pointer;
-      transition: all 0.3s ease-in-out;
-
-      &-disabled {
-        border-color: $gray;
-        color: $gray;
-      }
-
-      &-selected {
-        background: $light-black;
-        color: $white;
-      }
+    @media (max-width: 965px) {
+        margin-top: 20px;
     }
-  }
+    &-title {
+        color: $black;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &-buttons {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        align-items: center;
+
+        .button {
+            outline: none;
+            background: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 300;
+            text-transform: initial;
+            color: $light-black;
+            border-radius: 3px;
+            border: 1px solid $light-black;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &-disabled {
+                border-color: $gray;
+                color: $gray;
+            }
+
+            &-selected {
+                background: $light-black;
+                color: $white;
+            }
+        }
+    }
 }
