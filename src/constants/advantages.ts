@@ -19,8 +19,4 @@ export const ADVANTAGES = [
         src: 'images/bull/2.png',
         html: '<strong class="info-title">Стильные</strong> <p class="info-text">Верх с переплетением крыльев обеспечивает красивый вид.</p>',
     },
-    {
-        src: 'images/4.mp4',
-        html: `<strong class="info-title">Ортопедическая стелька</strong>`,
-    },
 ];

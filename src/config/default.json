@@ -5,13 +5,13 @@
         "SEND_FEEDBACK": "https://kc-telecom-api-640a191745af.herokuapp.com/feedback/create"
     },
     "CRM": {
-        "NEW_PRICE": 89,
-        "OLD_PRICE": 180,
+        "NEW_PRICE": 21990,
+        "OLD_PRICE": 44000,
         "WEBMASTER_ID": 1,
         "DISCOUNT": "-51%",
         "TARGETOLOG_ID": 1,
         "ORDER_METHOD": "orders-from-tik-tok",
-        "ARTICLE": "sneakers-shockproof-mens-blr",
-        "SHOP_SITE": "RB"
+        "ARTICLE": "sneakers-shockproof-mens-kz",
+        "SHOP_SITE": "KZ"
     }
 }
